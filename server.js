@@ -9,7 +9,7 @@ dotenv.config();
 //rest object
 const app=express();
 //middelwears
-// app.use(express.static(path.join(__dirname,'./client/build')))
+app.use(express.static(path.join(__dirname,'./client/build')))
 app.use(cors());
 app.use(express.json());
 //static files
@@ -17,9 +17,9 @@ app.use(express.json());
 app.use("/api/v1/portfolio",portfolioRoute);
 
 //routes
-// app.get('*',function (req,res){
-// res.sendFile(path.join(__dirname,'./client/build/index.html'))
-// });
+app.get('*',function (req,res){
+res.sendFile(path.join(__dirname,'./client/build/index.html'))
+});
 // // app.get("*",function (req,res){
 // res.sendFile(path.join(__dirname,'./client/build/index.html'))
 
