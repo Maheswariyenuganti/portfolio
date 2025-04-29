@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6ea006a.css",
+    "main.js": "/static/js/main.52b9a0f0.js",
+    "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
+    "static/media/photos.jpg": "/static/media/photos.78bb4529ad1f01ca9d0d.jpg",
+    "static/media/Y.Maheswari Resume.pdf": "/static/media/Y.Maheswari Resume.fca308ea4967b5761754.pdf",
+    "static/media/pplastic.jpg": "/static/media/pplastic.fe5067137377c9340eeb.jpg",
+    "index.html": "/index.html",
+    "main.f6ea006a.css.map": "/static/css/main.f6ea006a.css.map",
+    "main.52b9a0f0.js.map": "/static/js/main.52b9a0f0.js.map",
+    "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6ea006a.css",
+    "static/js/main.52b9a0f0.js"
+  ]
+}
